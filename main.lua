@@ -72,6 +72,28 @@ function StartRobbery()
     local streetName, crossing = GetStreetNameAtCoord(nearestStoreLocation.x, nearestStoreLocation.y, nearestStoreLocation.z)
     local robberyLocationName = GetStreetNameFromHashKey(streetName)
 
+local skillSets = {
+    {'easy', 'easy', {areaSize = 900}},
+    {'medium', 'medium', {areaSize = 1200}},
+    {'hard', 'hard', {areaSize = 150}}
+}
+
+local randomIndex = math.random(1, #skillSets)
+
+local randomSkillSet = skillSets[randomIndex]
+
+local keys = {'w', 'a', 's', 'd', 'e', 'z', 'g'}
+
+local randomKeyIndex = math.random(1, #keys)
+
+local randomKey = keys[randomKeyIndex]
+
+local success = lib.skillCheck(randomSkillSet, {randomKey})
+            if not success then
+        failminigame()
+        return
+    end
+
 
 
     TriggerServerEvent('zaps:storeRobberyStarted', robberyLocationName)
@@ -116,3 +138,7 @@ function FailRobbery()
     })
     end
 
+function failminigame( )
+    isRobbing = false
+
+end
