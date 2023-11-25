@@ -1,7 +1,4 @@
 local isRobbing = false
-
-
-local isRobbing = false
 local countdown = 0
 local cooldownTimer = 0
 local nearestStoreLocation = nil
@@ -93,12 +90,7 @@ local success = lib.skillCheck(randomSkillSet, {randomKey})
         failminigame()
         return
     end
-
-
-
     TriggerServerEvent('zaps:storeRobberyStarted', robberyLocationName)
-
-    
     Citizen.CreateThread(function()
         while countdown > 0 and isRobbing do
             Citizen.Wait(1000)
@@ -140,5 +132,4 @@ function FailRobbery()
 
 function failminigame( )
     isRobbing = false
-
 end
