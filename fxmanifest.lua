@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 games { 'gta5' }
 author 'Zaps6000'
-version '1.5'
+version '2.0'
 lua54 'yes'
 client_scripts {
 'main.lua',
