@@ -32,7 +32,7 @@ To configure the ESX Store Robbery script, follow these steps:
 
 Your feedback is important to us! If you encounter any issues or have suggestions for improvement, please don't hesitate to [report them on GitHub](https://github.com/Zaps6000/esx_payday/issues).
 
-For additional support or questions, you can reach out to our community on [![Discord](https://img.shields.io/badge/Discord-Support-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/tgrU8wgeHx) 
+For additional support or questions, you can reach out to our community on [![Discord](https://img.shields.io/badge/Discord-Support-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/fivemdev) 
 
 
 
