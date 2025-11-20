@@ -8,7 +8,7 @@
 
 ## Installation
 
-1. Download the script from the [GitHub repository](https://github.com/Zaps6000/esx_payday).
+1. Download the script from the [GitHub repository](https://github.com/ScrachStack/esx_payday).
 2. Extract the contents of the ZIP file into your server's resources folder.
 3. Add `start esx_payday` to your server.cfg file.
 Docs: https://docs.zapsdev.com/c/fivem/payday
@@ -30,9 +30,9 @@ To configure the ESX Store Robbery script, follow these steps:
 
 ## Feedback and Support
 
-Your feedback is important to us! If you encounter any issues or have suggestions for improvement, please don't hesitate to [report them on GitHub](https://github.com/Zaps6000/esx_payday/issues).
+Your feedback is important to us! If you encounter any issues or have suggestions for improvement, please don't hesitate to [report them on GitHub](https://github.com/ScrachStack/esx_payday/issues).
 
-For additional support or questions, you can reach out to our community on [![Discord](https://img.shields.io/badge/Discord-Support-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/fivemdev) 
+For additional support or questions, you can reach out to our community on [![Discord](https://img.shields.io/badge/Discord-Support-5865F2?style=flat&logo=discord&logoColor=white)](https://syncstudio.org) 
 
 
 
