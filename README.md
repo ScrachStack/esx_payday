@@ -11,7 +11,7 @@
 1. Download the script from the [GitHub repository](https://github.com/ScrachStack/esx_payday).
 2. Extract the contents of the ZIP file into your server's resources folder.
 3. Add `start esx_payday` to your server.cfg file.
-Docs: https://docs.zapsdev.com/c/fivem/payday
+Docs: https://docs.syncstudio.org/c/fivem/payday
 ## Configuration
 
 To configure the ESX Store Robbery script, follow these steps:
